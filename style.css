@@ -1,0 +1,96 @@
+body {
+    box-sizing: border-box;
+    /*   overflow-y: hidden; */
+}
+
+/* div {
+    outline: 1px solid blueviolet;
+} */
+
+p, li {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 16pt;
+    color: #d40451;
+}
+
+h3 {
+    font-size: 14pt;
+    color: #d40451;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0px;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 10px 0 0;;
+}
+
+svg {
+    height: .75em
+}
+
+#sheet {
+    max-width: 825px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0;
+}
+
+#summary {
+    flex-direction: column;
+    max-width: 250px;
+    margin-left: 75px;
+    margin-right: 5px;
+    padding: 5px
+}
+
+#education ul,
+#professional_experience ul,
+#contact ul, #skills  ul {
+    flex-direction: column;
+}
+
+#professional_experience ul {
+    flex-direction: column;
+    margin: 0;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.bare {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.roles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+/* 
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem; */
