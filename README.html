@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hello World!</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@200..900"
-      rel="stylesheet" />
-
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Raleway:wght@200;400;500;600;700;800;900&display=swap");
+    </style>
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
@@ -18,13 +15,15 @@
       <div id="summary">
         <h1>RC Maples</h1>
         <div id="contact">
-          <ul class="bare">
+          <ul>
             <li>
-              <span class="icon"
-                ><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+              <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
                   <path
-                    d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" /></svg></span
-              ><a href="mailto:rc@rcmaples.io">rc@rcmaples.io</a>
+                    d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
+                </svg>
+              </span>
+              <a href="mailto:rc@rcmaples.io">rc@rcmaples.io</a>
             </li>
             <li>
               <span class="icon">
@@ -77,7 +76,7 @@
         </div>
         <div id="skills">
           <h3>Skills</h3>
-          <ul class="bare">
+          <ul>
             <li>JavaScript / TypeScript</li>
             <li>Python</li>
             <li>Go / Golang</li>
@@ -94,7 +93,7 @@
         </div>
         <div id="education">
           <h3>Education</h3>
-          <ul class="bare">
+          <ul>
             <li>
               <strong>BS, Electronic Media Production</strong><br />
               Middle Tennessee State University<br />
@@ -156,7 +155,7 @@
         </div>
         <div id="employment_history">
           <h2>Employment History</h2>
-          <ul class="bare">
+          <ul>
             <li>
               <div class="employer">
                 <div class="header">
@@ -169,19 +168,19 @@
                 <div class="roles">
                   <ul>
                     <li>
-                      <ul class="bare">
+                      <ul class="justified">
                         <li>Manager, Support Engineering</li>
                         <li>Feb 2022 - Present</li>
                       </ul>
                     </li>
                     <li>
-                      <ul class="bare">
+                      <ul class="justified">
                         <li>Support Engineering, Team Lead</li>
                         <li>Aug 2021 - Feb 2022</li>
                       </ul>
                     </li>
                     <li>
-                      <ul class="bare">
+                      <ul class="justified">
                         <li>Principal Support Engineer</li>
                         <li>May 2019 - Aug 2021</li>
                       </ul>
@@ -189,6 +188,8 @@
                   </ul>
                 </div>
               </div>
+            </li>
+            <li>
               <div class="employer">
                 <div class="header">
                   <ul>
@@ -200,11 +201,19 @@
                 <div class="roles">
                   <ul>
                     <li>
-                      <ul class="bare">
+                      <ul class="justified">
                         <li>Team Lead, Tier 2 Support</li>
                         <li>Oct 2018 - May 2019</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class="justified">
                         <li>Sr. Support Engineer, Tier 2</li>
                         <li>Sep 2018 - Oct 2018</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class="justified">
                         <li>Support Engineer, Tier 2</li>
                         <li>Dec 2017 - Sep 2018</li>
                       </ul>
@@ -212,6 +221,8 @@
                   </ul>
                 </div>
               </div>
+            </li>
+            <li>
               <div class="employer">
                 <div class="header">
                   <ul>
@@ -223,9 +234,13 @@
                 <div class="roles">
                   <ul>
                     <li>
-                      <ul class="bare">
+                      <ul class="justified">
                         <li>Ticketing System Administrator</li>
                         <li>Aug 2016 - Dec 2017</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class="justified">
                         <li>IT Specialist</li>
                         <li>Feb 2012 - Aug 2016</li>
                       </ul>

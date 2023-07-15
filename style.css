@@ -1,41 +1,40 @@
 body {
     box-sizing: border-box;
-    /*   overflow-y: hidden; */
+    display: flex;
+    justify-content: center;
 }
-
-/* div {
-    outline: 1px solid blueviolet;
-} */
 
 p, li {
     font-family: 'Lato', sans-serif;
-    margin: 0px;
+    font-size: 15px;
+}
+
+a {
+    color: #d40451;
 }
 
 h1 {
     font-weight: 800;
     font-size: 24pt;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 16pt;
     color: #d40451;
+    margin-bottom: 5px;
 }
 
 h3 {
     font-size: 14pt;
     color: #d40451;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 ul {
     margin: 0px;
     display: flex;
-    list-style: none;
-}
-
-li {
-    margin: 0 10px 0 0;;
+    padding-inline-start: 0;
 }
 
 svg {
@@ -52,45 +51,114 @@ svg {
 }
 
 #summary {
+    display: flex;
     flex-direction: column;
-    max-width: 250px;
-    margin-left: 75px;
-    margin-right: 5px;
-    padding: 5px
+    padding: 10px;
+    width: 325px;
+}
+
+#details {
+    margin-left: 10px;
+    width: 575px;
+    display: flex;
+    flex-direction: column;
+}
+
+#objective p {
+    margin: 0;
 }
 
 #education ul,
 #professional_experience ul,
-#contact ul, #skills  ul {
+#contact ul,
+#education ul,
+#skills  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#employment_history > ul {
+    list-style: none;
     flex-direction: column;
 }
 
+#education ul li,
+#employment_history>ul>li {
+    list-style: none;
+}
+
+
+
+#employment_history>ul>li {
+    margin: 7px 0px;
+}
+
+#education ul li {
+    margin: 5px 0px;
+}
+
 #professional_experience ul {
-    flex-direction: column;
+    margin-left: 20px;
+    list-style: disc !important;
+}
+
+#professional_experience ul li {
+    display: list-item;
     margin: 0;
+}
+
+#professional_experience p {
+    margin: 5px;
+}
+
+/* #employment_history>ul>li:nth-child(1)>div>div.roles>ul>li:nth-child(1) */
+
+
+
+div.employer>div.roles>ul {
+    flex-direction: column;
+}
+
+div.employer div.header ul {
+    list-style: none;
+}
+
+div.roles>ul {
+    list-style: disc;
+ }
+
+div.roles>ul>li {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+}
+
+.header>ul, .roles>ul {
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: black 1px solid;
+    margin-bottom: 5px;
 }
 
 .icon {
     margin-right: 5px;
 }
 
-.bare {
-    list-style-type: none;
-    padding-inline-start: 0;
+.justified {
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 20px;
 }
 
-.roles {
+ul ul ul {
+    list-style-type: disc;
+}
+
+.justified>li:nth-child(2) {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    list-style-type: none;
+    text-align: left;
 }
-
-
-
-/* 
-// Spacing
-$s-size: 1.2rem;
-$m-size: 1.6rem;
-$l-size: 3.2rem;
-$xl-size: 4.8rem;
-$desktop-breakpoint: 45rem; */
