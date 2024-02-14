@@ -37,6 +37,7 @@ I'm a results-driven engineer with a background in creating delightful customer 
 - ExpressJS
 - Node.js
 - VS Code / Xcode / Android Studio
+- git + GitHub
 - REST APIs
 - Coaching / Mentoring
 - Cross-functional Collaboration
@@ -64,9 +65,7 @@ I'm a results-driven engineer with a background in creating delightful customer 
 
 ## Education
 
-- **BS, Electronic Media Production**  
-  Middle Tennessee State University  
-  May 2006
-- **FullStack Flex**  
-  Thinkful  
-  May - Oct 2018
+|                                     |                                      |                     |
+| ----------------------------------- | ------------------------------------ | ------------------- |
+| **BS, Electronic Media Production** | Middle Tennessee<br>State University | May 2006            |
+| **FullStack Flex**                  | Thinkful                             | May 2018 - Oct 2018 |
