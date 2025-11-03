@@ -16,52 +16,63 @@
 </a>
 </div>
 
-## About Me
+## About me
 
-I'm a results-driven engineer with a background in creating delightful customer experiences through challenging issues. I'm proficient in full stack development and customer support with a passion for delivering high-quality user experiences.
+I'm a Support Engineering leader with 10+ years of experience at the intersection of code and customer experience. I build tools, teams, and processes that help customers succeed—combining engineering & empathy. Passionate about using data and automation to refine support systems and accelerate feedback loops between users and internal stakeholders in fast-moving environments.
 
-## Professional Experience
+## Professional experience
 
-- As Fullstory's Global Manager for Support Engineering, I expanded our team's reach to EMEA and APAC regions. I focused on mentoring ICs in complex problem-solving and enhancing their soft skills, significantly boosting customer satisfaction and team collaboration. My team maintained an average of 4.9 CSAT and 98% SLA achievement.
-- I recently shifted to a new role to tackle our most challenging customer issues, enhancing ticket resolution efficiency and reducing need for engineering escalations by 52% in the first two months. I'm comfortable digging through unfamiliar codebases to pinpoint issues and am now working to refine support processes and ensure up-to-date knowledge sharing, collaborating effectively with engineering and product teams on complex cases.
-- I was awarded for exceptional customer empathy at InVision, and became the trusted face of support at FullStory. I provide white-glove service for some of our largest customers. I excel at presenting deeply technical issues to non-technical stakeholders and executives. I also manage the most critical and sensitive incidents and have maintained a consistent 5-star CSAT rating for over four years.
-- I am proficient in both front and back end technologies. I designed and built a full-stack web application to optimize support agent scheduling and ticket assignments. Focusing on skills-based routing, shftr [[demo](https://youtu.be/u1l6P-yYj6w)] significantly enhanced workload distribution and response efficiency, leading to a 75% reduction in median first response times for compliance tickets. The project involved utilizing various technologies such as Node.js, React, MongoDB and was later refactored in Go with Google Datastore and deployed within FullStory's tech stack.
+- Built an automated escalation workflow connecting Slack, Plain, and internal systems to streamline customer issue triage and improve collaboration between Support, Product, and Engineering.
+- Created customer-facing support infrastructure, including a self-serve portal and internal reporting foundation, leveraging AI coding tools like Kilo to prototype and accelerate development.
+- Designed and built a bespoke agent scheduling tool at FullStory. By implementing skills-based routing, increased efficiency and workload equity—reducing median first response times for compliance tickets by 75%. The project, **_shftr_** [[demo](https://youtu.be/u1l6P-yYj6w)], is now in its 3rd iteration and serves as a headless service connecting Assembled with Zendesk’s Unified Agent Statuses for managing omnichannel routing.
+- Developed custom Zendesk applications to streamline agent workflows and increase efficiency. Created one-click call scheduling via Calendly APIs, bespoke escalation workflows into tools like Linear and Shortcut, and unified “context-at-a-glance” views by consuming REST APIs from Salesforce, Stripe, and other internal systems.
+- Scaled FullStory's Support Engineering team from 2 to 6 by expanding globally across EMEA and APAC. Built structure and processes to support growth, mentoring engineers in complex troubleshooting and relationship management. The team consistently achieved 4.9 CSAT and 98% SLA attainment.
+- Led resolution of FullStory’s most complex customer issues as Principal Support Engineer. Improved triage and collaboration workflows to reduce engineering escalations by 52% within two months, accelerating time-to-resolution and reducing engineering workload.
+- Played a key role in shaping FullStory’s Mobile SDK strategy as part of a cross-functional council spanning Product, Engineering, and CX. Leveraged customer insights from escalations to guide decisions and created the initial training, playbook, and framework to empower teams to deliver exceptional mobile experiences.
+- Recognized for exceptional customer empathy at InVision and became the trusted point of contact for FullStory’s largest enterprise customers. Managed critical incidents with composure and clarity, maintaining a 5-star CSAT for four consecutive years while earning stakeholder confidence across technical and executive teams.
 
 ## Skills
 
 - JavaScript / TypeScript
 - Python
 - Go / Golang
-- React
-- MongoDB
-- ExpressJS
-- Node.js
-- VS Code / Xcode / Android Studio
-- git + GitHub
+- React, Next.js, Remix
+- Plain, Zendesk, Discord, Slack, Discourse, Salesforce
+- VS Code, Cursor
+- Node.js  / Express / MongoDB
+- PostgreSQL
 - REST APIs
 - Coaching / Mentoring
 - Cross-functional Collaboration
 - People Management
 
-## Employment History
+## Employment history
+
+### **Sanity** | Sept 2024 - Present | Atlanta, GA - Remote
+
+- Manager, Support Engineering — North America	Sept 2024 - Present
+
+### **Netlify** | Feb 2024 - Sept 2024 | Atlanta, GA - Remote
+
+- Staff Support Engineer	 Feb 2024 - Sept 2024
 
 ### **FullStory** | May 2019 - Feb 2024 | Atlanta, GA - Remote
 
-- Principal Support Engineer, Escalations Oct 2023 - Feb 2024
-- Global Manager, Support Engineering Feb 2022 - Oct 2023
-- Support Engineering, Team Lead Aug 2021 - Feb 2022
-- Principal Support Engineer May 2019 - Aug 2021
+- Principal Support Engineer, Escalations	Oct 2023 - Feb 2024
+- Global Manager, Support Engineering	Feb 2022 - Oct 2023
+- Support Engineering, Team Lead	Aug 2021 - Feb 2022
+- Principal Support Engineer	May 2019 - Aug 2021
 
 ### **InVision** | Dec 2017 - May 2019 | Raleigh, NC - Remote
 
-- Team Lead, Tier 2 Support Oct 2018 - May 2019
-- Sr. Support Engineer, Tier 2 Sep 2018 - Oct 2018
-- Support Engineer, Tier 2 Dec 2017 - Sep 2018
+- Team Lead, Tier 2 Support	Oct 2018 - May 2019
+- Sr. Support Engineer, Tier 2 	Sep 2018 - Oct 2018
+- Support Engineer, Tier 2 	Dec 2017 - Sep 2018
 
 ### **WCI, Inc.** | Feb 2012 - Dec 2017 | Sevierville, TN
 
-- Corporate Ticketing System Administrator Aug 2016 - Dec 2017
-- Corporate IT Specialist Feb 2012 - Aug 2016
+- Corporate Ticketing System Administrator	Aug 2016 - Dec 2017
+- Corporate IT Specialist 	Feb 2012 - Aug 2016
 
 ## Education
 
