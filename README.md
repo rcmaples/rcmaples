@@ -4,15 +4,15 @@
 <a href="mailto:rc@rcmaples.io" target="_blank">
 <img src="./assets/badges/email.png" alt="email rc@rcmaples.io" height="28px"/>
 </a>
-<a href="tel:18652422415" target="_blank">
-<img src="./assets/badges/phone.png" alt="call 865-242-2415" height="28px"/>
-</a>
 <img src="./assets/badges/location.png" alt="location atlanta georgia" height="28px"/>
 <a href="https://linkedin.com/in/rcmaples" target="_blank">
 <img src="./assets/badges/linkedin.png" alt="linkedin profile" height="28px"/>
 </a>
 <a href="https://github.com/rcmaples" target="_blank">
 <img src="./assets/badges/github.png" alt="github profile" height="28px"/>
+</a>
+<a href="https://www.npmjs.com/package/sanity-plugin-singleton-management" target="_blank">
+<img src="./assets/badges/npm.png" alt="npm packages by rcmaples" height="28px"/>
 </a>
 </div>
 
