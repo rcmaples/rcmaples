@@ -4,6 +4,7 @@
 
 <a href="mailto:rc@rcmaples.io"><img src="./assets/badges/email.svg" alt="email rc@rcmaples.io" /></a>
 <a href="https://linkedin.com/in/rcmaples"><img src="./assets/badges/linkedin.svg" alt="linkedin profile" /></a>
+<br>
 <a href="https://www.npmjs.com/package/sanity-plugin-singleton-management"><img src="./assets/badges/npm.svg" alt="npm packages" /></a>
 <img src="./assets/badges/location.svg" alt="Atlanta, GA" />
 
