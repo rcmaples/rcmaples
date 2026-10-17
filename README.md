@@ -5,7 +5,7 @@
 <a href="mailto:rc@rcmaples.io"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email rc@rcmaples.io" /></a>
 <a href="https://linkedin.com/in/rcmaples"><img src="./assets/badges/linkedin.svg" alt="linkedin profile" /></a>
 <a href="https://www.npmjs.com/package/sanity-plugin-singleton-management"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm packages" /></a>
-<img src="https://img.shields.io/badge/ATLANTA%2C%20GA-8AC926?style=for-the-badge" alt="Atlanta, GA" />
+<img src="./assets/badges/location.svg" alt="Atlanta, GA" />
 
 </div>
 
